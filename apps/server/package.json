@@ -1,0 +1,11 @@
+{
+  "name": "@psw/server",
+  "version": "0.1.0",
+  "private": true,
+  "type": "module",
+  "description": "无依赖 Node 服务：AI 代理 + 静态资源",
+  "scripts": {
+    "dev": "node --watch src/index.mjs",
+    "start": "node src/index.mjs"
+  }
+}
