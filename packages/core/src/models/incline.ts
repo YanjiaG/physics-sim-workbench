@@ -293,7 +293,7 @@ function bounds(params: Params, run: Run): Bounds {
   return {
     minX: Math.min(-1.2, minS * Math.cos(theta) - 1.0),
     maxX: Math.max(length * Math.cos(theta), maxS * Math.cos(theta)) + 1.4,
-    minY: -1.55,
+    minY: -1.05,
     maxY: Math.max(length * Math.sin(theta), maxS * Math.sin(theta)) + arrowRoom + 1.1,
   };
 }

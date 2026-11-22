@@ -232,7 +232,7 @@ function bounds(params: Params, run: Run): Bounds {
     2.6,
   );
   const maxY = clamp(HALF_H * 2 + arrowRoom + 1.0, 1.8, 3.6);
-  return { minX: minX - 1.0, maxX: Math.max(maxX + 1.5, minX + 3.4), minY: -1.55, maxY };
+  return { minX: minX - 1.0, maxX: Math.max(maxX + 1.5, minX + 3.4), minY: -1.05, maxY };
 }
 
 function frame(params: Params, run: Run, t: number): SceneFrame {
